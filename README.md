@@ -5,7 +5,7 @@ Vergleichen Sie die Häufigkeit der Zahlen in **datensumme.txt** mit den
 Vorhersagen der Poissonverteilung. Bitte schreiben Sie Ihren Code in die
 Datei: **poisson.cc**
 
-Zählen Sie mit einem **std::vector\<int\>**, wie oft die Werte <img src="https://rawgit.com/ABK-C/Blatt3/master/svgs/63bb9849783d01d91403bc9a5fea12a2.svg?invert_in_darkmode" align=middle width=9.075367949999992pt height=22.831056599999986pt/> von 0
+Zählen Sie mit einem **std::vector\<int\>**, wie oft die Werte <img src="https://cdn.jsdelivr.net/gh/ABK-C/Blatt3@master/svgs/63bb9849783d01d91403bc9a5fea12a2.svg?invert_in_darkmode" align=middle width=9.075367949999992pt height=22.831056599999986pt/> von 0
 bis 10 in der Datei vorkommen. Binden Sie dafür die entsprechende
 Include-Datei mit
 
@@ -13,8 +13,8 @@ Include-Datei mit
     using namespace std;
 
 ein. Erzeugen Sie ein vector-Objekt mit elf
-Einträgen:`vector<int> zaehler(11);` Lesen Sie dann alle <img src="https://rawgit.com/ABK-C/Blatt3/master/svgs/ee096a83eb47b7110b5a33bfc426c09a.svg?invert_in_darkmode" align=middle width=61.57522799999998pt height=22.465723500000017pt/>
-Zahlenwerte <img src="https://rawgit.com/ABK-C/Blatt3/master/svgs/de3e4ddbaf93c2db6b330ad1998cc995.svg?invert_in_darkmode" align=middle width=14.517775799999992pt height=14.15524440000002pt/> aus **datensumme.txt** und erhöhen Sie immer den
+Einträgen:`vector<int> zaehler(11);` Lesen Sie dann alle <img src="https://cdn.jsdelivr.net/gh/ABK-C/Blatt3/master/svgs/ee096a83eb47b7110b5a33bfc426c09a.svg?invert_in_darkmode" align=middle width=61.57522799999998pt height=22.465723500000017pt/>
+Zahlenwerte <img src="https://cdn.jsdelivr.net/gh/ABK-C/Blatt3/master/svgs/de3e4ddbaf93c2db6b330ad1998cc995.svg?invert_in_darkmode" align=middle width=14.517775799999992pt height=14.15524440000002pt/> aus **datensumme.txt** und erhöhen Sie immer den
 entsprechenden Eintrag im Vektor:
 
     zaehler[zahl] += 1;
